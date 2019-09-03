@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>select</title>
+    <style type="text/css">
+        body {
+            background-color: cornflowerblue;
+            background-image: url("tree.jpg");
+            background-repeat: no-repeat;
+            background-position-x: 15cm;
+            background-position-y: 9cm;
+        }
+        
+        h2 {
+            background-color: darkgray;
+            color: greenyellow;
+        }
+        
+        form {
+            position: absolute;
+            top: 5cm;
+            left: 9cm;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>SELECT DATASET </h2>
+    <form action="/test" method="POST">
+        <select name="dataset">
+                <option value="mushrooms">Mushrooms</option>
+                <option value="iris">Iris</option>
+                <option value="glass">Glass</option>
+                <option value="mobile">Mobile Prices</option>
+                <option value="tele cutomer">TeleComunication Customers</option>
+              </select>
+        <input type="submit" value="Submit">
+
+    </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prediction</title>
+    <style type="text/css">
+        body {
+            background-color: cornflowerblue;
+            background-image: url("clothing.png");
+            background-repeat: no-repeat;
+        }
+        
+        h1 {
+            background-color: darkgray;
+            color: greenyellow;
+            position: absolute;
+            top: 2cm;
+            left: 14cm;
+        }
+        
+        form {
+            position: absolute;
+            top: 5cm;
+            left: 14cm;
+        }
+        
+        h4 {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Set Values</h1>
+
+    <form action="/result" method="POST">
+        <h4>Select Gender</h4> <select name="gender">
+                <option value= 0 >Male</option>
+                <option value= 1 >Female</option>
+               
+              </select>
+        <h4>Senior Citizen</h4><select name="seniorcitizen">
+                    <option value= 1 >Yes</option>
+                    <option value= 0 >No</option>
+
+              </select>
+        <h4>Dependent</h4><select name="dependent">
+                    <option value= 1 >Yes</option>
+                    <option value= 0 >No</option>
+
+              </select>
+        <input type="number" name="tenure" placeholder="Enter monthes">
+        <input type="number" name="totalcharge" placeholder="Enter totalcharge" <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+</body>
+
+
+</html>
